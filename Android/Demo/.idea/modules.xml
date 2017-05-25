@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OComp/OComp.iml" filepath="$PROJECT_DIR$/OComp/OComp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeexSDK/WeexSDK.iml" filepath="$PROJECT_DIR$/WeexSDK/WeexSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.ci123.ciwebview/com.ci123.ciwebview.iml" filepath="$PROJECT_DIR$/com.ci123.ciwebview/com.ci123.ciwebview.iml" />
+    </modules>
+  </component>
+</project>
