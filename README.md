@@ -32,8 +32,17 @@ pod install
 
 ### Android
 
-open Android/Demo by Android Studio
+open Android/Demo by Android Studio  
+
+```
+make Project -> Run
+```
+
+if installed error
+
+```
 clean Project -> Rebuild Project -> Run
+```
 ## Changelog
 
 2017.5.25 first commit
