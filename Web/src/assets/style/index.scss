@@ -1,0 +1,16 @@
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-view {
+  $size: 200px;
+  height: $size;
+  width: $size;
+}
+.text-view {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  height: 100px;
+}

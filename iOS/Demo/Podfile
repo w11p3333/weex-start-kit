@@ -1,0 +1,8 @@
+source 'git@github.com:CocoaPods/Specs.git'
+target 'test' do
+    
+platform :ios, '7.0'
+pod 'WeexSDK', '0.11.0'
+pod 'SDWebImage', '3.7.5'
+
+end
