@@ -29,13 +29,13 @@ const commonPlugins = [
   new webpack.optimize.CommonsChunkPlugin({
     name: 'manifest',
     chunks: ['vendor']
+  }),
+  new webpack.optimize.UglifyJsPlugin({
+    compress: {
+      warnings: false
+    },
+    sourceMap: false
   })
-  // new webpack.optimize.UglifyJsPlugin({
-  //   compress: {
-  //     warnings: false
-  //   },
-  //   sourceMap: false
-  // }),
 ]
 
 // web config
