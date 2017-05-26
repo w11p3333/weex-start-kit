@@ -3,7 +3,7 @@
 
 ## Intro
 
-weex-start-kit is a simple demo for building Mobile cross-platform weex platform
+weex-start-kit is a simple demo for building Mobile cross-platform project
 
 ## Usage
 
