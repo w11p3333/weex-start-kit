@@ -1,6 +1,12 @@
 
 <p align="center"><img width="100"src="https://market.dotwe.org/assets/images/logo.png"></a></p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/w11p3333/weex-start-kit.svg?style=social&label=Star" alt="Build Status">
+<img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="License">
+  <br>
+</p>
+
 ## Intro
 
 weex-start-kit is a simple demo for building Mobile cross-platform project
