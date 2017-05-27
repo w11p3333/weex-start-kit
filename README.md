@@ -43,6 +43,11 @@ if installed error
 ```
 clean Project -> Rebuild Project -> Run
 ```
+
+## Q&A
+
+see [article](http://www.jianshu.com/p/497f1a9ff33f)
+
 ## Changelog
 
 2017.5.25 first commit
