@@ -1,6 +1,6 @@
 set -e
 # test web
 cd Web
-npm install
+npm i -f
 npm run lint
 npm run build
