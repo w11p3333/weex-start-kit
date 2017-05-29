@@ -1,6 +1,0 @@
-{
-  "AppName":"WeexApp",
-  "AppId":"com.alibaba.weex",
-  "SplashText":"Hello\nWeex",
-  "WeexBundle":"app.weex.js"
-}
