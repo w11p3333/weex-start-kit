@@ -2,8 +2,9 @@
 <p align="center"><img width="100"src="https://market.dotwe.org/assets/images/logo.png"></a></p>
 
 <p align="center">
+  <a href="https://circleci.com/gh/w11p3333/weex-start-kit/tree/master"><img src="https://img.shields.io/circleci/project/w11p3333/weex-start-kit/master.svg" alt="Build Status"></a>
   <img src="https://img.shields.io/github/stars/w11p3333/weex-start-kit.svg?style=social&label=Star" alt="Build Status">
-<img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="License">
+  <img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="License">
   <br>
 </p>
 
