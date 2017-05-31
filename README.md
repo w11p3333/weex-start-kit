@@ -2,14 +2,16 @@
 <p align="center"><img width="100"src="https://market.dotwe.org/assets/images/logo.png"></a></p>
 
 <p align="center">
-  <a href="https://circleci.com/gh/w11p3333/weex-start-kit/tree/master"><img src="https://img.shields.io/circleci/project/w11p3333/weex-start-kit/master.svg" alt="Build Status"></a>
+  <a href="https://circleci.com/gh/w11p3333/weex-start-kit/tree/master"><img src="https://circleci.com/gh/w11p3333/weex-start-kit.svg?style=shield&circle-token=:circle-token" alt="BuildStatus" /></a>
+  <a href="https://coveralls.io/github/w11p3333/weex-start-kit?branch=master"><img src="https://img.shields.io/coveralls/w11p3333/weex-start-kit/master.svg?style=flat" alt="Coverage" /></a>
   <img src="https://img.shields.io/github/stars/w11p3333/weex-start-kit.svg?style=social&label=Star" alt="Build Status">
-  <img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="License">
-  <br>
+  <img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="License" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Welcome PR" />
 </p>
 
 ## Intro
 
+[![CircleCI Status](https://circleci.com/gh/w11p3333/weex-start-kit.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/w11p3333/weex-start-kit)
 weex-start-kit is a simple template for building mobile cross-platform project
 
 ## Preview
