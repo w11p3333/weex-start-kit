@@ -12,6 +12,14 @@
 
 weex-start-kit is a simple demo for building Mobile cross-platform project
 
+## Preview
+
+[Web](https://w11p3333.github.io/weex-start-kit/example/web)
+
+iOS/Android 
+Using [playground](https://weex.apache.org/cn/playground.html) scan the code
+![QRCode](https://qr.api.cli.im/qr?data=https%253A%252F%252Fw11p3333.github.io%252Fweex-start-kit%252Fexample%252Fweex%252Fjs%252Findex.js&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=02ac6d4ed2d38700ec480bc99b6da32e)
+
 ## Usage
 
 ### web
