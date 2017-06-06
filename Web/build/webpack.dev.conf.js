@@ -4,6 +4,7 @@ const DevServer = require('webpack-dev-server')
 const baseConfig = require('./webpack.base.conf')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const opn = require('opn')
 
 const devWebConfig = merge(baseConfig('vue'), {
   entry: {
@@ -47,11 +48,16 @@ const devWeexConfig = merge(baseConfig('weex'), {
   // }
 })
 
+const port = 8080
+const host = '0.0.0.0'
 new DevServer(webpack([devWebConfig, devWeexConfig]), {
   disableHostCheck: true,
-  port: 8080,
+  port,
   host: '0.0.0.0',
   hot: true,
+  // open: true,
   stats: { colors: true }
-}).listen('8080', '0.0.0.0')
-console.log('Project is running at http://0.0.0.0:8080/')
+}).listen(`${port}`, host)
+console.log(`Project is running at http://${host}:${port}/`)
+
+opn(`http://localhost:${port}/`)
