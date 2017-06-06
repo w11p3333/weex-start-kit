@@ -58,7 +58,8 @@
     "weex-devtool": "^0.2.77",
     "weex-loader": "^0.4.4",
     "weex-vue-loader": "^0.2.12",
-    "weex-vue-render": "^0.1.9"
+    "weex-vue-render": "^0.1.9",
+    "opn": "^5.0.0"
   },
   "dependencies": {
     "shelljs": "^0.7.7",
