@@ -6,13 +6,16 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const opn = require('opn')
 
+const port = 8080
+const host = '0.0.0.0'
+
 const devWebConfig = merge(baseConfig('vue'), {
   entry: {
     app: [
       './src/render.js',
       './src/app.js',
       'webpack/hot/dev-server',
-      'webpack-dev-server/client/?http://0.0.0.0:8080'
+      `webpack-dev-server/client/?http://${host}:${port}`
     ]
   },
   // externals: {
@@ -48,8 +51,6 @@ const devWeexConfig = merge(baseConfig('weex'), {
   // }
 })
 
-const port = 8080
-const host = '0.0.0.0'
 new DevServer(webpack([devWebConfig, devWeexConfig]), {
   disableHostCheck: true,
   port,
