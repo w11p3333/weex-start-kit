@@ -66,7 +66,8 @@ see [article](http://www.jianshu.com/p/497f1a9ff33f)
 
 ## Changelog
 
-2017.5.25 first commit
+2017.5.25 first commit  
+2017.6.22 update to `webpack 3.0`  
 
 ## License
 
